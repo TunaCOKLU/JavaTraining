@@ -1,9 +1,5 @@
-
-public class Television {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class Television {
+protected final void watch() {}
+}public class LCD extends Television {
+Object watch() {}
 }
