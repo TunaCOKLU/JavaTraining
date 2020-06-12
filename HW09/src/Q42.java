@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Q42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub,
+		
+		
+		
+		List<Integer> pennies = new ArrayList<>();
+		pennies.add(3);
+		pennies.add(2);
+		pennies.add(1);
+		pennies.remove(2);
+		System.out.println(pennies);
+
+	}
+
+}
